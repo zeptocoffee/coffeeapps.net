@@ -29,7 +29,7 @@ export default function Layout({
       <footer className="bg-gray-700">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-wrap-reverse justify-between h-48 items-center">
-            <div className="flex-auto md:ml-6 text-center sm:text-left">
+            <div className="flex-auto ml-0 md:ml-6 xl:ml-0 text-center sm:text-left">
               <a href="https://coffeeapps.net" className="text-white text-base">&copy;2020 CoffeeApps. Made with ❤️ &amp; ☕ </a>
             </div>
             <div className="flex-auto self-start md:self-auto">
