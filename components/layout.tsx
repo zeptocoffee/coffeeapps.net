@@ -11,13 +11,15 @@ export default function Layout({
       <Head>
         <title>coffeeapps.net</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet" />
       </Head>
       <nav className="bg-yellow-50">
         <div className="max-w-7xl mx-auto">
           <div className="flex pt-5">
             <div className="ml-6">
               <a href="https://coffeeapps.net">
-                <h1 className="text-gray-600 text-base font-medium">coffeeapps.net</h1>
+                <h1 className="text-gray-600 text-xl font-medium font-stylish">coffeeapps.net</h1>
               </a>
             </div>
           </div>

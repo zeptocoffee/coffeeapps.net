@@ -29,7 +29,7 @@ export default function Home() {
           <div className="max-w-7xl mx-3 md:mx-6 xl:mx-auto">
             <div className="flex flex-wrap-reverse items-center h-screen">
               <div className="flex-auto lg:flex-1 self-end lg:self-auto text-center lg:text-left">
-                <a href="https://todays.coffee" className="text-3xl tracking-tight font-extrabold text-gray-900 underline">
+                <a href="https://todays.coffee" className="text-4xl tracking-tight font-extrabold text-gray-900 font-stylish underline">
                   todays.coffee
                 </a>
                 <p className="mt-3 text-gray-500 text-xl">
@@ -53,7 +53,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex-auto lg:flex-1 self-start lg:self-auto mx-0 lg:mx-6 text-center lg:text-left">
-                <a href="https://roastery.jp" className="text-3xl tracking-tight font-extrabold text-gray-100 underline">
+                <a href="https://roastery.jp" className="text-4xl tracking-tight font-extrabold text-gray-100 font-stylish underline">
                   roastery.jp
                 </a>
                 <p className="mt-3 text-gray-300 text-xl">
