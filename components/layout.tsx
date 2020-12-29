@@ -9,14 +9,14 @@ export default function Layout({
   return (
     <>
       <Head>
-        <title>coffeeapps.net</title>
+        <title>CoffeeApps</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet" />
         <meta name="description" content="We build iOS, Android and Web applications for coffee lovers." />
         <meta property="og:description" content="We build iOS, Android and Web applications for coffee lovers." />
         <meta property="og:image" content="https://coffeeapps.net/logo.png" />
-        <meta property="og:title" content="coffeeapps.net" />
+        <meta property="og:title" content="CoffeeApps" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://coffeeapps.net" />
         <meta property="twitter:card" content="summary" />
@@ -27,7 +27,7 @@ export default function Layout({
           <div className="flex pt-5">
             <div className="ml-6">
               <a href="https://coffeeapps.net">
-                <h1 className="text-gray-600 text-xl font-medium font-stylish">coffeeapps.net</h1>
+                <h1 className="text-gray-600 text-xl font-medium font-stylish">CoffeeApps</h1>
               </a>
             </div>
           </div>
