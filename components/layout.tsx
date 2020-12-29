@@ -38,17 +38,17 @@ export default function Layout({
               <div className="flex justify-evenly md:justify-end">
                 <div className="flex flex-shrink-0 w-28 items-center justify-center">
                   <a href="https://twitter.com/coffeeappsnet">
-                    <Image src="/image/twitter.svg" width={28} height={28} />
+                    <Image src="/image/twitter.svg" width={28} height={28} alt="Twitter" />
                   </a>
                 </div>
                 <div className="flex flex-shrink-0 w-28 items-center justify-center">
                   <a href="https://instagram.com/coffeeappsnet">
-                    <Image src="/image/instagram.svg" width={28} height={28} />
+                    <Image src="/image/instagram.svg" width={28} height={28} alt="Instagram" />
                   </a>
                 </div>
                 <div className="flex flex-shrink-0 w-28 items-center justify-center">
                   <a href="https://github.com/coffeeappsnet">
-                    <Image src="/image/github.svg" width={28} height={28} />
+                    <Image src="/image/github.svg" width={28} height={28} alt="GitHub" />
                   </a>
                 </div>
               </div>
