@@ -13,6 +13,14 @@ export default function Layout({
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet" />
+        <meta name="description" content="We build iOS, Android and Web applications for coffee lovers." />
+        <meta property="og:description" content="We build iOS, Android and Web applications for coffee lovers." />
+        <meta property="og:image" content="https://coffeeapps.net/logo.png" />
+        <meta property="og:title" content="coffeeapps.net" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://coffeeapps.net" />
+        <meta property="twitter:card" content="summary" />
+        <meta property="twitter:site" content="@coffeeappsnet" />
       </Head>
       <nav className="bg-yellow-50">
         <div className="max-w-7xl mx-auto">
