@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Layout from '../components/layout'
 
 export default function Home() {
@@ -10,7 +9,7 @@ export default function Home() {
             <div className="flex flex-wrap items-center h-screen">
               <div className="flex-auto lg:flex-1">
                 <div className="w-auto">
-                  <Image src="/image/coworking.png" width="1600" height="1200" alt="man drinking coffe" />
+                  <img src="/image/coworking.png" width="1600" height="1200" alt="man drinking coffe" />
                 </div>
               </div>
               <div className="flex-auto lg:flex-1 self-start lg:self-auto text-center lg:text-left">
@@ -38,7 +37,7 @@ export default function Home() {
               </div>
               <div className="flex-auto lg:flex-1">
                 <div className="w-auto">
-                  <Image src="/image/todays.coffee.png" width="800" height="500" alt="todays.cofee screencapture" />
+                  <img src="/image/todays.coffee.png" width="800" height="500" alt="todays.cofee screencapture" />
                 </div>
               </div>
             </div>
@@ -49,7 +48,7 @@ export default function Home() {
             <div className="flex flex-wrap items-center h-screen">
               <div className="flex-auto lg:flex-1">
                 <div className="w-auto">
-                  <Image src="/image/roastery.jp.png" width="800" height="500" alt="roastery.jp screencapture" />
+                  <img src="/image/roastery.jp.png" width="800" height="500" alt="roastery.jp screencapture" />
                 </div>
               </div>
               <div className="flex-auto lg:flex-1 self-start lg:self-auto mx-0 lg:mx-6 text-center lg:text-left">
