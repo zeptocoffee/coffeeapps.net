@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "npx @11ty/eleventy --serve & npx tailwindcss -i styles/tailwind.css -c ./tailwind.config.js -o _site/tailwind.min.css --watch",
-    "build": "ELEVENTY_ENV=production npx @11ty/eleventy & npx tailwindcss -i styles/tailwind.css -c ./tailwind.config.js -o _site/tailwind.min.css --minify"
+    "build": "NODE_ENV=production npx @11ty/eleventy & npx tailwindcss -i styles/tailwind.css -c ./tailwind.config.js -o _site/tailwind.min.css --minify"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
