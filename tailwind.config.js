@@ -1,9 +1,7 @@
 module.exports = {
-  mode: 'jit',
-  purge: [
-    '_site/**/*.html',
+  content: [
+    './_site/**/*.html',
   ],
-  darkMode: false,
   theme: {
     fontFamily: {
       'stylish': ['Stylish', 'sans-serif'],
@@ -13,9 +11,6 @@ module.exports = {
       'primary': '#e6dcd1',
       'secondary': '#634830',
     })
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 }
